@@ -1,3 +1,170 @@
-p {
-    font-size: 33px;
+* {
+    box-sizing: border-box;
+}
+html, body, div, span, applet, object, iframe,
+
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+
+a, abbr, acronym, address, big, cite, code,
+
+del, dfn, em, img, ins, kbd, q, s, samp,
+
+small, strike, strong, sub, sup, tt, var,
+
+b, u, i, center,
+
+dl, dt, dd, ol, ul, li,
+
+fieldset, form, label, legend,
+
+table, caption, tbody, tfoot, thead, tr, th, td,
+
+article, aside, canvas, details, embed, 
+
+figure, figcaption, footer, header, hgroup, 
+
+menu, nav, output, ruby, section, summary,
+
+time, mark, audio, video {
+
+    margin: 0;
+
+    padding: 0;
+
+    border: 0;
+
+    font-size: 100%;
+
+    font: inherit;
+
+    vertical-align: baseline;
+
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+
+footer, header, hgroup, menu, nav, section {
+
+    display: block;
+
+}
+
+body {
+
+    line-height: 1;
+
+}
+
+ol, ul {
+
+    list-style: none;
+
+}
+
+blockquote, q {
+
+    quotes: none;
+
+}
+
+blockquote:before, blockquote:after,
+
+q:before, q:after {
+
+    content: '';
+
+    content: none;
+
+}
+
+table {
+
+    border-collapse: collapse;
+
+    border-spacing: 0;
+
+}
+
+.wrap {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header {
+    width: 1300px;
+    height: 150px;
+    background-color: #9FC2CB;
+    color: #3D3B3E;
+    margin: 0 auto;
+}
+
+.header .logo {
+    padding-top: 15px;
+}
+
+.header .nav a {
+    color: black;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.header .nav {
+    padding-top: 50px;
+}
+
+.header li {
+    display: inline-block;
+}
+
+.header h1 {
+    font-size: 60px;
+}
+
+.main {
+    width: 1300px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.section {
+    float: left;
+    width: 80%;
+
+}
+
+.aside {
+    float: left;
+    width: 20%;
+    height: 400px;
+    background-color: #D7E9EE;
+}
+
+.aside h2 {
+    font-size: 18px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.main a {
+    color: black;
+    text-decoration: none;
+}
+
+.main h2 {
+
+}
+
+.footer {
+    width: 1300px;
+    height: 70px;
+    background-color: #9FC2CB;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer p {
+    padding-top: 12px;
 }
